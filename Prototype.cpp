@@ -17,9 +17,8 @@ public:
         color = startColor;
     }
 
-    void Move(float newX, float newY);
 
-    virtual float Area();
+    virtual float Area() { return -1.0; }
 };
 
 
